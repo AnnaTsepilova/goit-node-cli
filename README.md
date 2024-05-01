@@ -23,21 +23,21 @@
 
 ```
 # Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
-npm start -- -a list
+node index.js -a list
 
 # Отримуємо контакт по id і виводимо у консоль об'єкт контакту або null, якщо контакту з таким id не існує.
-npm start -- -a get -i 05olLMgyVQdWRwgKfg5J6
+node index.js -a get -i 05olLMgyVQdWRwgKfg5J6
 
 # Додаємо контакт та виводимо в консоль об'єкт новоствореного контакту
-npm start -- -a add -n Mango -e mango@gmail.com -p 322-22-22
+node index.js -a add -n Mango -e mango@gmail.com -p 322-22-22
 
 # Видаляємо контакт та виводимо в консоль об'єкт видаленого контакту або null, якщо контакту з таким id не існує.
-npm start -- -a remove -i qdggE76Jtbfd9eWJHrssH
+node index.js -a remove -i qdggE76Jtbfd9eWJHrssH
 ```
 
 ### Final Result
 
-![screencapture](./assets/task_1.png)
-![screencapture](./assets/task_2.png)
-![screencapture](./assets/task_3.png)
-![screencapture](./assets/task_4.png)
+![screencapture](./assets/func_1.png)
+![screencapture](./assets/func_2.png)
+![screencapture](./assets/func_3.png)
+![screencapture](./assets/func_4.png)
